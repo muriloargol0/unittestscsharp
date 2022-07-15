@@ -33,7 +33,7 @@ namespace TestNinja.UnitTests.Mocking
 
             var result = controller.DeleteEmployee(1);
 
-            Assert.That(result, Is.TypeOf<string>());
+            Assert.That(result, Is.TypeOf<RedirectResult>());
         }
     }
 }
